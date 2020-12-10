@@ -8,4 +8,14 @@ public class HomeController {
 	public String index() {
 		return "CO2 levels application";
 	}
+	
+	@RequestMapping("/get_co2_emissions_by_districts")
+	public String get_co2_emissions() {
+		return "CO2 emissions by districts";
+	}
+	
+	@RequestMapping("/get_co2_emissions_by_cities")
+	public String get_co2_emissions_by_cities() {
+		return "CO2 emissions by cities";
+	}
 }
