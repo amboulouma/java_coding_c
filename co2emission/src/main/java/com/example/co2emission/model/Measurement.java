@@ -4,20 +4,17 @@ package com.example.co2emission.model;
 //import java.util.Set;
 //
 //
-//public class Measurment {
+//public class Measurement {
 //
 //	@Id
 //	private Long measurmentID;
 //	
 //	private String name;
 //	
-//	@OneToMany(mappedBy="sensor")
-//    private Set<Measurment> measurments;
+//	@ManyToOne(mappedBy="measurement")
+//  private Sensor measurements;
 //	
-//	@ManyToOne(mappedBy="sensor")
-//    private District district;
-//	
-//	public Measurment(String name) {
+//	public Measurement(String name) {
 //		this.name = name;
 //	}
 //	public String getName() {

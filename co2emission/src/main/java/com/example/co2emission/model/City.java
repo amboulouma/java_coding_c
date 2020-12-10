@@ -11,11 +11,8 @@ package com.example.co2emission.model;
 //	
 //	private String name;
 //	
-//	@OneToMany(mappedBy="sensor")
-//    private Set<Measurment> measurments;
-//	
-//	@ManyToOne(mappedBy="sensor")
-//    private District district;
+//	@OneToMany(mappedBy="city")
+//  private Set<District> districts;
 //	
 //	public City(String name) {
 //		this.name = name;
