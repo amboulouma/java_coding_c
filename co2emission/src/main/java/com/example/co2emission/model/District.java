@@ -1,3 +1,4 @@
+package com.example.co2emission.model;
 //package model;
 //
 //import java.util.Set;

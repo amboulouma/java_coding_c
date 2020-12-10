@@ -1,12 +1,14 @@
+package com.example.co2emission.model;
 //package model;
 //
+//import javax.persistence.*;
 //import java.util.Set;
 //
 //
-//public class Measurment {
+//public class Sensor {
 //
 //	@Id
-//	private Long measurmentID;
+//	private Long sensorID;
 //	
 //	private String name;
 //	
@@ -16,7 +18,7 @@
 //	@ManyToOne(mappedBy="sensor")
 //    private District district;
 //	
-//	public Measurment(String name) {
+//	public Sensor(String name) {
 //		this.name = name;
 //	}
 //	public String getName() {
